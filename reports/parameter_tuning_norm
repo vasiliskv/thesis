@@ -92,19 +92,19 @@ avg / total       0.88      0.89      0.87      2073
 ************************************************************
 Grid Search for RF
 {'n_estimators': 200}
-0.930 (+/-0.022) for {'n_estimators': 10}
-0.933 (+/-0.039) for {'n_estimators': 50}
-0.936 (+/-0.034) for {'n_estimators': 100}
-0.939 (+/-0.030) for {'n_estimators': 150}
-0.940 (+/-0.034) for {'n_estimators': 200}
+0.929 (+/-0.027) for {'n_estimators': 10}
+0.937 (+/-0.027) for {'n_estimators': 50}
+0.938 (+/-0.032) for {'n_estimators': 100}
+0.937 (+/-0.029) for {'n_estimators': 150}
+0.940 (+/-0.032) for {'n_estimators': 200}
 
 
              precision    recall  f1-score   support
 
-      False       0.94      0.99      0.96      1777
-       True       0.89      0.65      0.75       296
+      False       0.95      0.98      0.96      1777
+       True       0.87      0.66      0.75       296
 
-avg / total       0.94      0.94      0.93      2073
+avg / total       0.93      0.94      0.93      2073
 
 
 
