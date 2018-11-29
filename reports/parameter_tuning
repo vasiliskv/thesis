@@ -10,6 +10,7 @@ Grid Search for SVM
 0.865 (+/-0.014) for {'C': 1000, 'gamma': 0.001, 'kernel': 'rbf'}
 0.858 (+/-0.008) for {'C': 1000, 'gamma': 0.0001, 'kernel': 'rbf'}
 
+mean accuracy score:0.8561263868789195
 
              precision    recall  f1-score   support
 
@@ -53,6 +54,7 @@ Grid Search for KNN
 0.896 (+/-0.016) for {'n_neighbors': 28}
 0.896 (+/-0.016) for {'n_neighbors': 29}
 
+mean accuracy score:0.8943726400186304
 
              precision    recall  f1-score   support
 
@@ -79,6 +81,7 @@ Grid Search for LR
 0.891 (+/-0.024) for {'C': 1000, 'tol': 0.0001}
 0.888 (+/-0.025) for {'C': 1000, 'tol': 0.001}
 
+mean accuracy score:0.8768290721981025
 
              precision    recall  f1-score   support
 
@@ -91,13 +94,14 @@ avg / total       0.88      0.89      0.87      2073
 
 ************************************************************
 Grid Search for RF
-{'n_estimators': 150}
-0.928 (+/-0.030) for {'n_estimators': 10}
-0.934 (+/-0.028) for {'n_estimators': 50}
-0.936 (+/-0.029) for {'n_estimators': 100}
-0.938 (+/-0.034) for {'n_estimators': 150}
-0.936 (+/-0.033) for {'n_estimators': 200}
+{'n_estimators': 100}
+0.934 (+/-0.028) for {'n_estimators': 10}
+0.937 (+/-0.026) for {'n_estimators': 50}
+0.940 (+/-0.033) for {'n_estimators': 100}
+0.936 (+/-0.035) for {'n_estimators': 150}
+0.937 (+/-0.032) for {'n_estimators': 200}
 
+mean accuracy score:0.9369030390738061
 
              precision    recall  f1-score   support
 

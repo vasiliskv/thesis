@@ -1,6 +1,7 @@
 ************************************************************
 Grid Search for SVM
 {'C': 1000, 'gamma': 0.001, 'kernel': 'rbf'}
+
 0.853 (+/-0.004) for {'C': 1, 'gamma': 0.001, 'kernel': 'rbf'}
 0.853 (+/-0.004) for {'C': 1, 'gamma': 0.0001, 'kernel': 'rbf'}
 0.855 (+/-0.007) for {'C': 10, 'gamma': 0.001, 'kernel': 'rbf'}
@@ -10,6 +11,7 @@ Grid Search for SVM
 0.875 (+/-0.020) for {'C': 1000, 'gamma': 0.001, 'kernel': 'rbf'}
 0.862 (+/-0.015) for {'C': 1000, 'gamma': 0.0001, 'kernel': 'rbf'}
 
+mean accuracy score:0.8585986493005306
 
              precision    recall  f1-score   support
 
@@ -23,6 +25,7 @@ avg / total       0.89      0.88      0.85      2073
 ************************************************************
 Grid Search for KNN
 {'n_neighbors': 7}
+
 0.906 (+/-0.035) for {'n_neighbors': 1}
 0.909 (+/-0.022) for {'n_neighbors': 2}
 0.912 (+/-0.033) for {'n_neighbors': 3}
@@ -53,6 +56,7 @@ Grid Search for KNN
 0.902 (+/-0.018) for {'n_neighbors': 28}
 0.902 (+/-0.018) for {'n_neighbors': 29}
 
+mean accuracy score:0.9068649466872929
 
              precision    recall  f1-score   support
 
@@ -66,6 +70,7 @@ avg / total       0.92      0.92      0.91      2073
 ************************************************************
 Grid Search for LR
 {'C': 1000, 'tol': 0.001}
+
 0.866 (+/-0.016) for {'C': 1, 'tol': 1e-05}
 0.866 (+/-0.016) for {'C': 1, 'tol': 0.0001}
 0.866 (+/-0.016) for {'C': 1, 'tol': 0.001}
@@ -79,6 +84,7 @@ Grid Search for LR
 0.890 (+/-0.025) for {'C': 1000, 'tol': 0.0001}
 0.891 (+/-0.026) for {'C': 1000, 'tol': 0.001}
 
+mean accuracy score:0.8821353915420486
 
              precision    recall  f1-score   support
 
@@ -92,19 +98,21 @@ avg / total       0.88      0.89      0.87      2073
 ************************************************************
 Grid Search for RF
 {'n_estimators': 200}
-0.930 (+/-0.032) for {'n_estimators': 10}
-0.936 (+/-0.032) for {'n_estimators': 50}
-0.936 (+/-0.031) for {'n_estimators': 100}
-0.937 (+/-0.033) for {'n_estimators': 150}
-0.938 (+/-0.030) for {'n_estimators': 200}
 
+0.933 (+/-0.028) for {'n_estimators': 10}
+0.933 (+/-0.036) for {'n_estimators': 50}
+0.936 (+/-0.034) for {'n_estimators': 100}
+0.937 (+/-0.028) for {'n_estimators': 150}
+0.940 (+/-0.029) for {'n_estimators': 200}
+
+mean accuracy score:0.9360347322720696
 
              precision    recall  f1-score   support
 
-      False       0.94      0.99      0.96      1777
-       True       0.88      0.66      0.75       296
+      False       0.95      0.99      0.97      1777
+       True       0.90      0.66      0.76       296
 
-avg / total       0.94      0.94      0.93      2073
+avg / total       0.94      0.94      0.94      2073
 
 
 
